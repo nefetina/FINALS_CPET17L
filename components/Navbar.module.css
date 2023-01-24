@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+.container1 {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > img {
+    width: 80px;
+    height: 80px;
+}
+
+.name {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.tech {
+    color: white;
+}
+
+.people {
+    color:#0CF807;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+ 
+}
+
+.buttons > a{
+    display: flex;
+    margin: 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons > a:hover{
+    color: #0CF807;
+    transition: 0.6s ease-in-out;
+}
+  
+@media screen and (max-width: 500px) {
+    .logo > img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .container{
+        display: flex;
+    }
+
+    .container1 {
+        display: flex;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+    .buttons > a{
+        font-size: 10px;
+    }
+
+    .login > button{
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+}

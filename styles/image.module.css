@@ -1,0 +1,122 @@
+.text{
+  position: fixed;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0E4B35;
+    margin-top: 100px;
+
+}
+
+.bg{
+  background: url("/image/Rectangle 1 (1).png");
+  background: url("/image/Rectangle 1 (1).png");
+    background-position: center center;
+    background-size: cover;
+  height: 100vh;
+  position: fixed;
+    width: 100%;
+    overflow: hidden;
+    overflow-x:scroll ;
+}
+.texture{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+
+}
+.texture1{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter !important;
+    font-size: 25px;
+    
+
+}
+
+
+.main2 {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display:table-cell;
+  padding-top: 200px;
+  
+  
+  
+}
+.pol{
+  margin-top: 100px !important;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.12);
+  margin:10px;
+  
+}
+
+.img{
+  border: 10px solid rgb(255, 255, 255);
+}
+.tag{
+  border: 10px solid rgb(255, 255, 255);
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 600px) {
+  .pol{
+    margin-top: 120px !important;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.12);
+    margin:10px;
+    
+  }
+  .texture{
+    font-size: 15px !important;
+    text-align: center;
+  
+  }
+  .texture1{
+    font-size: 20px !important;
+  }
+  .pic{
+    width: 400px;
+    height:400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pol{
+    margin-top: 120px !important;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.12);
+    margin:10px;
+    
+  }
+  .texture{
+    font-size: 15px !important;
+    text-align: center;
+  
+  }
+  .texture1{
+    font-size: 20px !important;
+  }
+  .pic{
+    width: 300px !important;
+    height:300px !important;
+  }
+  .texture{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px !important;
+  
+  }
+  
+}

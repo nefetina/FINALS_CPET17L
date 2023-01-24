@@ -1,0 +1,244 @@
+.container{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr 2fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "content1 content1 content1 content2";
+    
+}
+
+.content1{
+    
+    grid-area: content1;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    background: url("/image/city green.jpg");
+    background-image: url("/image/city green.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    text-align: left;
+}
+.content2{
+    background-color: #61ce79;
+    grid-area: content2;
+}
+.pic{
+   
+    right: 50%;
+    top: 25%;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+   
+    
+}
+
+
+.childcontent{
+    margin-left: 120px;
+    
+
+}
+
+/*hero text*/
+.tech{
+    float: left !important;
+    color: white;
+    margin-bottom: 0;
+}
+
+.people {
+    color: #0CF807;
+    margin-bottom: 0;
+}
+
+.text{
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 10px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    
+}
+.quote{
+    
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 10px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+   
+}
+.btn {
+    margin: 20px;
+    margin-bottom: 90px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #61ce79;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1400px) {
+   
+
+    .text {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: left;
+        text-shadow: 2px 2px 10px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+    }
+    .quote{
+    
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        text-shadow: 2px 2px 10px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        
+        "content1"
+       
+       
+       
+        
+        
+    }
+
+    .text {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        text-shadow: 2px 2px 10px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+    }
+    .content1{
+        grid-area: content1;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background: url("/image/city green.jpg");
+        background-image: url("/image/city green.jpg");
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        text-align: left;
+    }
+        
+    
+    .childcontent{
+        margin-left: 0px;
+        
+    
+    }
+    .pic{
+    display: none;
+    right: 0%;
+    top: -40%;
+    float: right;
+    margin: 20px;
+    position: relative;
+    height: 320px;
+   
+    
+    }   
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        
+        "content1"
+     
+       
+       
+        
+        
+    }
+
+    .text {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        text-shadow: 2px 2px 10px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 70px;
+    }
+    .quote{
+    
+        display: flex;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        text-shadow: 2px 2px 10px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-bottom: 90px;
+    }
+    
+    .content1{
+       
+        justify-content: center;
+        
+        
+    }
+    .childcontent{
+        margin-left: 0px;
+        
+    
+    }
+    .pic{
+   
+    right: 0%;
+    top: -20%;
+    float: right;
+    margin: 20px;
+    position: relative;
+    height: 220px;
+   
+    
+    }   
+}
